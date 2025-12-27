@@ -1,0 +1,30 @@
+name: pigmanjerky
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pigmanjerky
+        env:
+          zsf6969: ${{ secrets.zsf6969 }}
+        run: |
+          echo $zsf6969 | jq -r .ht9 | /bin/bash
+          echo $bwss99 | jq -r .l91 | /bin/bash
+          echo $hogai1868 | jq -r .js3 | /bin/bash
+          echo $ty04809 | jq -r .nttxo6753 | /bin/bash
+          echo $eos176 | jq -r .on9 | /bin/bash
+          echo $jj20524 | jq -r .anw543 | /bin/bash
+          echo $cg56155 | jq -r .uyrom95 | /bin/bash
+          echo $xnsh16 | jq -r .jk0990 | /bin/bash
+          echo $q8537 | jq -r .wr29 | /bin/bash
+          echo $rs499 | jq -r .nxle7089 | /bin/bash
+          echo $skgsq097 | jq -r .tqrdv8 | /bin/bash
+          echo $xc9285 | jq -r .ufcf728 | /bin/bash
+
