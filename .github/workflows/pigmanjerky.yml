@@ -3,7 +3,7 @@ name: pigmanjerky
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '7 3/6 * * *'
 
 jobs:
   build:
@@ -13,18 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: pigmanjerky
         env:
-          zsf6969: ${{ secrets.zsf6969 }}
+          dss98: ${{ secrets.dss98 }}
         run: |
-          echo $zsf6969 | jq -r .ht9 | /bin/bash
-          echo $bwss99 | jq -r .l91 | /bin/bash
-          echo $hogai1868 | jq -r .js3 | /bin/bash
-          echo $ty04809 | jq -r .nttxo6753 | /bin/bash
-          echo $eos176 | jq -r .on9 | /bin/bash
-          echo $jj20524 | jq -r .anw543 | /bin/bash
-          echo $cg56155 | jq -r .uyrom95 | /bin/bash
-          echo $xnsh16 | jq -r .jk0990 | /bin/bash
-          echo $q8537 | jq -r .wr29 | /bin/bash
-          echo $rs499 | jq -r .nxle7089 | /bin/bash
-          echo $skgsq097 | jq -r .tqrdv8 | /bin/bash
-          echo $xc9285 | jq -r .ufcf728 | /bin/bash
+          echo $dss98 | jq -r .goyjj4 | /bin/bash
+          echo $trgcv6 | jq -r .exm6 | /bin/bash
+          echo $e631 | jq -r .dgdx6 | /bin/bash
+          echo $peg47477 | jq -r .ed562 | /bin/bash
+          echo $rkm8668 | jq -r .yztkb62987 | /bin/bash
+          echo $fc79683 | jq -r .yag401 | /bin/bash
+          echo $fawz84 | jq -r .p93352 | /bin/bash
+          echo $dpy135 | jq -r .ej131 | /bin/bash
+          echo $m2447 | jq -r .shw49587 | /bin/bash
 
